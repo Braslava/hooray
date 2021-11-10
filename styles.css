@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: inherit;
+  font-family:'Roboto', sans-serif;
+  background-color: rgb(219, 60, 60);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto; 
+  background-image: url("/assets/images/cards-1240686_1280.png");
+  padding-bottom: 30px;
+}
+
+.hero_image {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px gold;
+  margin: 10px 30px;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.heading--main {
+  font-family: 'Dancing Script', cursive;
+  color: gold;
+  font-size: 48px;
+  padding: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+.paragraph {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.paragraph--small {
+  font-size: 16px;
+}
+
+.surprise {
+  color: white;
+  background-color: gold;
+  padding: 15px 30px;
+  border: none; 
+  border-radius: 10px;
+  position: fixed;
+  font-size: 20px;
+  top: 50%; 
+  cursor: pointer;
+  box-shadow: 0 0 10px 2px gold;
+}
+
+.hidden {
+  visibility: hidden;
+}
